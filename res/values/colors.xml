@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- MainActivity -->
+    
+    <color name="main_activity_background_color">#000000</color>
+    <color name="main_activity_direction_title_color">#ffffff</color>
+    <color name="main_activity_gear_title_color">#ffffff</color>
+    <color name="main_activity_acceleration_title_color">#ffffff</color>
+    
+    <!-- /MainActivity -->
+    
+    <!-- LogActivity -->
+    
+    <color name="log_activity_background_color">#000000</color>
+    <color name="log_activity_log_color">#ffffff</color>
+    <color name="log_activity_clear_button_color">#000000</color>
+    
+    <!-- /LogActivity -->
+    
+    <!-- SettingsActivity -->
+    
+    <color name="settings_activity_background_color">#000000</color>
+    <color name="settings_activity_option_title_color">#ffffff</color>
+    <color name="settings_activity_plc_routine_background_color">#bbbbbb</color>
+    
+    <!-- /SettingsActivity -->
+    
+</resources>

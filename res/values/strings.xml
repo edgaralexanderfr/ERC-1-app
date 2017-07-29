@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ERC-1 (DR)</string>
+    
+    <!-- actions -->
+    
+    <string name="overflow_menu_connect_text">Connect</string>
+    <string name="overflow_menu_logs_text">Logs</string>
+    <string name="overflow_menu_settings_text">Settings</string>
+    
+    <!-- /actions -->
+    
+    <!-- ERCActivity -->
+    
+    <string name="erc_activity_alert_positive_button_text">OK</string>
+    <string name="erc_activity_select_dialog_positive_button_text">OK</string>
+    <string name="erc_activity_select_dialog_negative_button_text">Cancel</string>
+    
+    <!-- /ERCActivity -->
+    
+    <!-- MainActivity -->
+    
+    <string name="main_activity_left_blinker_button_description">Left blinker button</string>
+    <string name="main_activity_headlights_button_description">Headlights button</string>
+    <string name="main_activity_horn_button_description">Horn button</string>
+    <string name="main_activity_siren_button_description">Sirena button</string>
+    <string name="main_activity_emergency_lights_button_description">Emergency lights button</string>
+    <string name="main_activity_right_blinker_button_description">Right blinker button</string>
+    <string name="main_activity_direction_title">Direction</string>
+    <string name="main_activity_gear_button_description">Gear button</string>
+    <string name="main_activity_gear_title">Gear</string>
+    <string name="main_activity_car_image_description">Car</string>
+    <string name="main_activity_upper_collision_sector_image_description">Upper collision sector</string>
+    <string name="main_activity_lower_collision_sector_image_description">Lower collision sector</string>
+    <string name="main_activity_left_collision_sector_image_description">Left collision sector</string>
+    <string name="main_activity_right_collision_sector_image_description">Right collision sector</string>
+    <string name="main_activity_acceleration_title">Acceleration</string>
+    <string name="main_activity_brake_button_description">Brake button</string>
+    <string name="main_activity_accelerate_button_description">Accelerate button</string>
+    <string name="main_activity_disabled_bluetooth_message">Bluetooth is disabled</string>
+    <string name="main_activity_no_paired_devices_message">No paired devices were found.</string>
+    <string name="main_activity_select_paired_device_message">Select a paired device:</string>
+    <string name="main_activity_connection_success_message">Device connected to the ERC.</string>
+    <string name="main_activity_connection_failed_message">Failed to connect with the ERC.</string>
+    <string name="main_activity_disconnected_message">Device has been disconnected from ERC.</string>
+    <string name="main_activity_not_connected_message">Device not connected to the ERC.</string>
+    <string name="main_activity_connection_success_log">ERC device has been connected.</string>
+    <string name="main_activity_connection_failed_log">Failed to connect with ERC.</string>
+    <string name="main_activity_collision_sectors_updated_log">Collision sectors data has been updated.</string>
+    <string name="main_activity_disconnected_log">ERC device has been disconnected.</string>
+    <string-array name="main_activity_out_response_logs">
+        <item>ERC\'s direction has been set.</item>
+        <item>ERC\'s acceleration has been set.</item>
+        <item>ERC\'s direction and acceleration were set.</item>
+        <item>ERC is in FORWARD mode.</item>
+        <item>ERC is in NEUTRAL mode.</item>
+        <item>ERC is in REVERSE mode.</item>
+        <item>ERC is braking&#8230;</item>
+        <item>ERC stopped braking.</item>
+        <item>ERC is accelerating&#8230;</item>
+        <item>ERC stopped accelerating.</item>
+        <item>ERC\'s motors level factor has been set.</item>
+        <item>ERC\'s direction for rotation has been set.</item>
+        <item>ERC\'s collision protection brake is ON.</item>
+        <item>ERC\'s collision protection brake is OFF.</item>
+        <item>ERC\'s PLC routine has changed.</item>
+        <item>ERC\'s left blinker has been toggled.</item>
+        <item>ERC\'s headlights has been toggled.</item>
+        <item>ERC\'s horn started.</item>
+        <item>ERC\'s horn stopped.</item>
+        <item>ERC\'s sire has been toggled.</item>
+        <item>ERC\'s emergency lights has been toggled.</item>
+        <item>ERC\'s right blinker has been toggled.</item>
+        <item>ERC\'s automatic headlights are ON.</item>
+        <item>ERC\'s automatic headlights are OFF.</item>
+    </string-array>
+    
+    <!-- /MainActivity -->
+    
+    <!-- LogActivity -->
+    
+    <string name="log_activity_title">E.R.C. - Logs</string>
+    <string name="log_activity_clear_button_text">Clear</string>
+    
+    <!-- /LogActivity -->
+    
+    <!-- SettingsActivity -->
+    
+    <string name="settings_activity_title">E.R.C - Settings</string>
+    <string name="settings_activity_reset_direction_on_drop_label">Reset direction on drop</string>
+    <string name="settings_activity_reset_acceleration_on_drop_label">Reset acceleration on drop</string>
+    <string name="settings_activity_wheel_label">Wheel</string>
+    <string name="settings_activity_throttle_label">Throttle</string>
+    <string name="settings_activity_motors_level_factor_label">Motors level factor</string>
+    <string name="settings_activity_direction_for_rotation_label">Direction for rotation</string>
+    <string name="settings_activity_automatic_headlights_label">Automatic headlights</string>
+    <string name="settings_activity_collision_protection_brake_label">Collision protection brake</string>
+    <string name="settings_activity_plc_routine_label">PLC routine</string>
+    <string name="settings_activity_reset_direction_on_drop_on_log">Directions will be reset.</string>
+    <string name="settings_activity_reset_direction_on_drop_off_log">Directions will not be reset.</string>
+    <string name="settings_activity_reset_acceleration_on_drop_on_log">Accelerations will be reset.</string>
+    <string name="settings_activity_reset_acceleration_on_drop_off_log">Accelerations will not be reset.</string>
+    <string name="settings_activity_wheel_on_log">Wheel is ON.</string>
+    <string name="settings_activity_wheel_off_log">Wheel is OFF.</string>
+    <string name="settings_activity_throttle_on_log">Throttle is ON.</string>
+    <string name="settings_activity_throttle_off_log">Throttle is OFF.</string>
+    <string-array name="settings_activity_plc_routine_options">
+        <item>None</item>
+    </string-array>
+    
+    <!-- /SettingsActivity -->
+	
+</resources>

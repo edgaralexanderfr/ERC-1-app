@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}">
+    
+    <!-- main container -->
+    
+    <LinearLayout
+        tools:ignore="UselessParent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        
+        <!-- log container -->
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.65"
+            android:background="@color/log_activity_background_color">
+            
+            <!-- log scroll -->
+            
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="20dip">
+                
+                <TextView
+                    android:id="@+id/log_activity_log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/log_activity_log_color"
+                    android:text=""></TextView>
+                
+            </ScrollView>
+            
+            <!-- /log scroll -->
+            
+        </LinearLayout>
+        
+        <!-- /log container -->
+        
+        <!-- clear button container -->
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.35">
+            
+            <Button
+                android:id="@+id/log_activity_clear_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="20sp"
+                android:textColor="@color/log_activity_clear_button_color"
+                android:text="@string/log_activity_clear_button_text" />
+            
+        </LinearLayout>
+        
+        <!-- /clear button container -->
+        
+    </LinearLayout>
+    
+    <!-- /main container -->
+    
+</RelativeLayout>

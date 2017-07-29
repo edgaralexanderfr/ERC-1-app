@@ -1,0 +1,442 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}">
+    
+    <!-- main scroll -->
+    
+    <ScrollView
+        tools:ignore="UselessParent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/settings_activity_background_color">
+        
+        <!-- main container -->
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <!-- option 1 container -->
+	        
+	        <LinearLayout
+	            android:layout_margin="16dip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:baselineAligned="true">
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="left|center">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="18sp"
+	                    android:textColor="@color/settings_activity_option_title_color"
+	                    android:text="@string/settings_activity_reset_direction_on_drop_label" />
+	                
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="right|center">
+	                
+	                <Switch
+	                    android:id="@+id/settings_activity_reset_direction_on_drop"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textOff="0"
+	                    android:textOn="1" />
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <!-- /option 1 container -->
+            
+            <!-- option 2 container -->
+	        
+	        <LinearLayout
+	            android:layout_margin="16dip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:baselineAligned="true">
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="left|center">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="18sp"
+	                    android:textColor="@color/settings_activity_option_title_color"
+	                    android:text="@string/settings_activity_reset_acceleration_on_drop_label" />
+	                
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="right|center">
+	                
+	                <Switch
+	                    android:id="@+id/settings_activity_reset_acceleration_on_drop"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textOff="0"
+	                    android:textOn="1" />
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <!-- /option 2 container -->
+            
+	        <!-- option 3 container -->
+	        
+	        <LinearLayout
+	            android:layout_margin="16dip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:baselineAligned="true">
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="left|center">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="18sp"
+	                    android:textColor="@color/settings_activity_option_title_color"
+	                    android:text="@string/settings_activity_wheel_label" />
+	                
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="right|center">
+	                
+	                <Switch
+	                    android:id="@+id/settings_activity_wheel"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textOff="0"
+	                    android:textOn="1" />
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <!-- /option 3 container -->
+	        
+	        <!-- option 4 container -->
+	        
+	        <LinearLayout
+	            android:layout_margin="16dip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:baselineAligned="true">
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="left|center">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="18sp"
+	                    android:textColor="@color/settings_activity_option_title_color"
+	                    android:text="@string/settings_activity_throttle_label" />
+	                
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="right|center">
+	                
+	                <Switch
+	                    android:id="@+id/settings_activity_throttle"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textOff="0"
+	                    android:textOn="1" />
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <!-- /option 4 container -->
+	        
+	        <!-- option 5 container -->
+	        
+	        <LinearLayout
+	            android:layout_margin="16dip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:baselineAligned="true">
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="left|center">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="18sp"
+	                    android:textColor="@color/settings_activity_option_title_color"
+	                    android:text="@string/settings_activity_motors_level_factor_label" />
+	                
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="right|center">
+	                
+	                <SeekBar
+	                    android:id="@+id/settings_activity_motors_level_factor"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:max="255"></SeekBar>
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <!-- /option 5 container -->
+	        
+	        <!-- option 6 container -->
+	        
+	        <LinearLayout
+	            android:layout_margin="16dip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:baselineAligned="true">
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="left|center">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="18sp"
+	                    android:textColor="@color/settings_activity_option_title_color"
+	                    android:text="@string/settings_activity_direction_for_rotation_label" />
+	                
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="right|center">
+	                
+	                <SeekBar
+	                    android:id="@+id/settings_activity_direction_for_rotation"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:max="127"></SeekBar>
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <!-- /option 6 container -->
+	        
+	        <!-- option 7 container -->
+	        
+	        <LinearLayout
+	            android:layout_margin="16dip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:baselineAligned="true">
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="left|center">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="18sp"
+	                    android:textColor="@color/settings_activity_option_title_color"
+	                    android:text="@string/settings_activity_automatic_headlights_label" />
+	                
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="right|center">
+	                
+	                <Switch
+	                    android:id="@+id/settings_activity_automatic_headlights"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textOff="0"
+	                    android:textOn="1" />
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <!-- /option 7 container -->
+	        
+	        <!-- option 8 container -->
+	        
+	        <LinearLayout
+	            android:layout_margin="16dip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:baselineAligned="true">
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="left|center">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="18sp"
+	                    android:textColor="@color/settings_activity_option_title_color"
+	                    android:text="@string/settings_activity_collision_protection_brake_label" />
+	                
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="right|center">
+	                
+	                <Switch
+	                    android:id="@+id/settings_activity_collision_protection_brake"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textOff="0"
+	                    android:textOn="1" />
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <!-- /option 8 container -->
+            
+            <!-- option 9 container -->
+	        
+	        <LinearLayout
+	            android:layout_margin="16dip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:baselineAligned="true">
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="left|center">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="18sp"
+	                    android:textColor="@color/settings_activity_option_title_color"
+	                    android:text="@string/settings_activity_plc_routine_label" />
+	                
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:layout_weight="1"
+	                android:gravity="right|center">
+	                
+	                <Spinner
+	                    android:id="@+id/settings_activity_plc_routine"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:spinnerMode="dropdown"
+	                    android:background="@color/settings_activity_plc_routine_background_color" />
+	            		
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <!-- /option 9 container -->
+            
+        </LinearLayout>
+        
+        <!-- /main container -->
+        
+    </ScrollView>
+    
+    <!-- /main scroll -->
+    
+</RelativeLayout>
